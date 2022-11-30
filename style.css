@@ -1,0 +1,382 @@
+body{
+    background-color: #f6f5f5;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Estilo Seção*/
+section{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    background-image: url(img/fd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Estilo Navegador*/
+nav{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: 'century gothic';
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    font-family: 'century gothic';
+    color: #000000;
+    font-size: 22px;
+}
+
+.active{
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+/*Estilo dos Textos*/
+.conteudo-texto p:nth-child(1)
+{
+    font-family: 'century gothic';
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.conteudo-texto p:nth-child(2){
+    font-family: 'century gothic';
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 60px;
+}
+
+.conteudo-texto p:nth-child(3){
+    font-family: 'century gothic';
+    color: #000;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.conteudo-texto{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.conteudo-texto{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+
+.conteudo-texto button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: 'century gothic';
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.btn1{
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+.btn2{
+    border: 2px solid #373636;
+    color: #373636;
+    background-color: #d3d3d3;
+}
+
+button:active{
+    transform: scale(1.1);
+}
+
+/*Estilo dos Imagem de Fundo*/
+
+.imgrosto{
+    height: 350px;
+    position: absolute;
+    bottom: 150px;
+    left: 67%;
+    transform: translateX(-70%);
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+
+.conteudo-sobre{
+    width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: -7%;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo-sobre img{
+
+    height: 250px;
+}
+
+.texto-sobre{
+    width: 550px;
+}
+
+.conteudo-sobre p:nth-child(1){
+    color: #403e3e;
+    font-family: 'century gothic';
+    font-weight: bold;
+    font-size:23px;
+    line-height:0px;
+}
+
+
+.conteudo-sobre p:nth-child(2){
+    color: #403e3e;
+    font-family: 'century gothic';
+    font-weight: bold;
+    font-size:13px;
+    line-height:5px;
+    font-weight: bold;
+}
+
+.conteudo-sobre p:nth-child(3),
+.conteudo-sobre p:nth-child(4){
+    color: #7E7D7D;
+    font-family: 'myria pro';
+    font-size:16px;
+}
+
+.texto-sobre button{
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    font-family: 'century gothic';
+    background-color: #403e3e;
+}
+
+/*Sessão de serviços*/
+
+.servicos{
+    height: 600px;
+    background-color:#ffffff;
+}
+
+.servicos-textos p:nth-child(1){
+    font-family: 'century gothic';
+    font-weight: bold;
+    color: #3d3d3d;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.servicos-textos p:nth-child(2){
+    font-family: 'century gothic';
+    font-weight: bold;
+    color: #3d3d3d;
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.servicos-textos{
+    width: 500px;
+    margin: 50px 0px 0px 50px;
+}
+
+.box1 , .box2 , .box3 , .box4{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box1{
+    background-image: url(img/ww.jpg);
+}
+
+.box2{
+    background-image: url(img/ww.jpg);
+}
+
+.box3{
+    background-image: url(img/ww.jpg);
+}
+
+.box4{
+    background-image: url(img/ww.jpg);
+}
+
+.box1 span,
+.box2 span,
+.box3 span,
+.box4 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'century gothic';
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box1 p:nth-child(2),
+.box2 p:nth-child(2),
+.box3 p:nth-child(2),
+.box4 p:nth-child(2){
+    color: #403e3e;
+    font-family: 'century gothic';
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.box1 p:nth-child(3),
+.box2 p:nth-child(3),
+.box3 p:nth-child(3),
+.box4 p:nth-child(3){
+    color: #000;
+    font-family: 'century gothic';
+    text-align: center;
+    width: 250px;
+    margin: 0px 0px 20px 0px;
+}
+
+.box1 button,
+.box2 button,
+.box3 button,
+.box4 button{
+    width: 100px;
+    height: 30px;
+    background-color: #dcdcdc;
+    border-color: #505050;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*fale comigo*/
+
+.contato{
+    width: 100%;
+    height: 280px;
+    background-image: url(img/bb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato p{
+    color: #FFFAFA;
+    font-size: 30px;
+    font-family: 'century gothic';
+    font-weight: bold;
+    border-bottom: 2px solid #7E7D7D;
+}
+
+.contato button{
+    width: 200px;
+    height: 40px;
+    background-color: #7E7D7D;
+    outline: none;
+    border-radius: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*rodapé*/
+
+footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p{
+    font-family: 'century gothic';
+}
+
+footer p:nth-child(1){
+    font-weight: bold;
+    color: #373636;
+    line-height: 10px;
+    font-size: 30px;
+}
+
+footer p:nth-child(2){
+    color: #565555;
+    font-size: 16px;
+    width: 500px;
+    text-align: center;
+}
+
+footer p:nth-child(2){
+    color: #565555;
+    font-size: 16px;
+    width: 500px;
+    text-align: center;
+}
+
+.copy{
+    color: #565555;
+    font-size: 13px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
