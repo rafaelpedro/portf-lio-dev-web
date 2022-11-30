@@ -176,7 +176,8 @@ button:active{
 }
 
 .conteudo-sobre p:nth-child(3),
-.conteudo-sobre p:nth-child(4){
+.conteudo-sobre p:nth-child(4),
+.conteudo-sobre p:nth-child(5){
     color: #7E7D7D;
     font-family: 'myria pro';
     font-size:16px;
